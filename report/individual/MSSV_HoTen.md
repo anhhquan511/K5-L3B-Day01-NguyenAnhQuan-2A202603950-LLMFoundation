@@ -4,7 +4,7 @@
 
 - **MSSV: Nguyễn Anh Quân**
 - **Họ và tên: 2A202603950**
-- **SEED** (in ở ô đầu notebook):
+- **SEED** (in ở ô đầu notebook): SEED = int(hashlib.md5(STUDENT_ID.strip().encode()).hexdigest(), 16) % 10_000
 
 ## 1. Bằng chứng
 
